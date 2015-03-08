@@ -1,28 +1,21 @@
 @import url('demo.css');
-
+video{
+	margin-top: 30px;
+	margin-left: 150px;
+}
 
 .mi-slider {
 	position: relative;
-	margin-top: 10px;
+	margin-top: 30px;
 	height: 490px;
 }
 
-.mi-slider ul.aqui {
-	list-style-type: none;
-	position: absolute;
-	width: 100%;
-	left: 0;
-	bottom: auto;
-	overflow: hidden;
-	text-align: center;
-	pointer-events: none;
-}
 .mi-slider ul {
 	list-style-type: none;
 	position: absolute;
 	width: 100%;
 	left: 0;
-	bottom: 90px;
+	bottom: 140px;
 	overflow: hidden;
 	text-align: center;
 	pointer-events: none;
@@ -37,7 +30,6 @@
 }
 
 .mi-slider ul.mi-current {
-	
 	pointer-events: auto;
 }
 
@@ -88,16 +80,15 @@
 
 .mi-slider nav {
 	position: relative;
-	top: 300px;
+	top: 400px;
 	text-align: center;
 	max-width: 800px;
 	margin: 0 auto;
 	border-top: 5px solid #333;
 }
 
-
 .no-js nav {
-	d0isplay: none;
+	display: none;
 }
 
 .mi-slider nav a {
