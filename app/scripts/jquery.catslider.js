@@ -1,15 +1,14 @@
-;( function( $, window, undefined ) {
+(function ($, window, undefined) {
+    'use strict';
 
-	'use strict';
-
-	$.CatSlider = function( options, element ) {
-		this.$el = $( element );
-		this._init( options );
+    $.CatSlider = function (options, element) {
+        this.$el = $(element);
+        this._init(options);
 	};
 
 	$.CatSlider.prototype = {
 
-		_init : function( options ) {
+		_init : function(options) {
 
 			// the categories (ul)
 			this.$categories = this.$el.children( 'ul' );
